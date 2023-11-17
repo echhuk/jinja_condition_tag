@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>jinja tag - condition tag
+            <h2>
+            {% if a > b %}
+                {%if a > c %}
+                {{a}}-a is max
+                {% else %}
+                {{c}}- c is max
+                {% endif %}
+            {% else %}
+                {% if b > c %}
+                {{b}}-b is max
+                {% else %}
+                {{c}}- c is max
+                {% endif %}
+            {% endif %}
+            </h2>
+        </h1>
+        {{f}}
+    </center>
+</body>
+</html>
